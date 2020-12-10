@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	.dropdown {
+		position: relative;
+		display:inline-block; 	}
+
+	.dropdown-content {
+		position:absolute;
+		display: none;
+		background-color: yellow;
+		min-width: 190px;
+		padding: 12px 18px;
+		z-index: 1; 	}
+
+	.dropdown:hover .dropdown-content {
+		display:block; 	}
+</style> </head>
+<body>
+<p>hoverable content</p>
+<div class="dropdown">
+	<span>mouse over me !</span>
+<div class="dropdown-content">
+	<p>hello world !</p>
+</div> </div>
+</body>
+</html>
